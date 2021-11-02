@@ -2,8 +2,8 @@
 // @name        Name
 // @description Does stuff
 // @version     1.0.0
-// @updateURL   https://raw.githubusercontent.com/PurplProto/useful-user-scripts/master/src/scripts/
-// @downloadURL https://raw.githubusercontent.com/PurplProto/useful-user-scripts/master/src/scripts/
+// @updateURL   https://github.com/PurplProto/useful-user-scripts/raw/master/src/scripts/
+// @downloadURL https://github.com/PurplProto/useful-user-scripts/raw/master/src/scripts/
 // @namespace   https://github.com/PurplProto/useful-user-scripts
 // @include     /.*:\/\/(www\.|)aWebSite\.(com|co.uk)\/.*/
 // @exclude     *://somthing.maybe.*/*
