@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name        Take me to Amazon Smile always!
+// @name        Amazon - Take me to Amazon Smile always!
 // @description Redirects you to the Amazon Smile domain if you find yourself on the normal site. I'm not sure why Amazon can't just support charities anyway, but here we are, needing a more convenient way to help us do that.
 // @version     1.0.1
-// @updateURL   https://raw.githubusercontent.com/PairedPrototype/useful-user-scripts/master/src/scripts/amazon/take-me-to-amazon-smile-always.js
-// @downloadURL https://raw.githubusercontent.com/PairedPrototype/useful-user-scripts/master/src/scripts/amazon/take-me-to-amazon-smile-always.js
-// @namespace   https://github.com/PairedPrototype/useful-user-scripts
+// @updateURL   https://github.com/PurplProto/useful-user-scripts/raw/master/src/scripts/amazon/take-me-to-amazon-smile-always.js
+// @downloadURL https://github.com/PurplProto/useful-user-scripts/raw/master/src/scripts/amazon/take-me-to-amazon-smile-always.js
+// @namespace   https://github.com/PurplProto/useful-user-scripts
 // @include     /.*:\/\/(www\.|)amazon\.(com|co.uk|de)\/.*/
 // @exclude     *://smile.amazon.*/*
-// @author      PairedPrototype
-// @supportURL  https://github.com/PairedPrototype/useful-user-scripts/issues
+// @author      PurplProto
+// @supportURL  https://github.com/PurplProto/useful-user-scripts/issues
 // @icon        https://www.amazon.com/favicon.ico
 // @grant       none
 // ==/UserScript==
