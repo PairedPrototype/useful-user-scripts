@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Amazon - Take me to Amazon Smile always!
 // @description Redirects you to the Amazon Smile domain if you find yourself on the normal site. I'm not sure why Amazon can't just support charities anyway, but here we are, needing a more convenient way to help us do that.
-// @version     1.0.1
+// @version     1.0.2
 // @updateURL   https://github.com/PurplProto/useful-user-scripts/raw/master/src/scripts/amazon/take-me-to-amazon-smile-always.js
 // @downloadURL https://github.com/PurplProto/useful-user-scripts/raw/master/src/scripts/amazon/take-me-to-amazon-smile-always.js
 // @namespace   https://github.com/PurplProto/useful-user-scripts
