@@ -18,11 +18,6 @@ function doLog(message, formatting = []) {
   console.log(`%c[PurplProto -> Copy Short Link]%c: ${message}`, 'color: BlueViolet', 'color: unset', ...formatting);
 }
 
-// Check if we've added the short link button
-function isShortLinkAdded(menuElement) {
-  return menuElement.firstChild.textContent === 'Copy Short Link';
-}
-
 // Build short link
 function buildShortLink() {
   const postId = window.location.pathname.split('/')[4];
@@ -62,8 +57,11 @@ function addShortLinkToClipboard() {
     for (const mutation of mutationsList) {
       const menuElement = document.querySelector('[role="menu"]');
 
+      // Falsy when it's not the share menu, or if we've already added the shortlink button
+      // Need to check if we've already added because mutations can trigger multiple times
+      const isShareMenu = menuElement?.firstChild?.textContent?.toLowerCase() === 'copy link';
       const newElementsAdded = mutation.type === 'childList';
-      if (newElementsAdded && !!menuElement && !isShortLinkAdded(menuElement)) {
+      if (newElementsAdded && !!menuElement && isShareMenu) {
         doLog('%cwe found the menu', ['color: green']);
         prependShortLinkButton(menuElement);
       }
