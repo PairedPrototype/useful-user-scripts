@@ -49,7 +49,7 @@ function addShortLinkToClipboard() {
     const linkIcon = menuElement.firstChild.firstChild.cloneNode(true);
 
     // Add click handler
-    shortLinkButton.addEventListener('click', addShortLinkToClipboard());
+    shortLinkButton.addEventListener('click', addShortLinkToClipboard);
 
     // Modify the text, add the link icon and then prepend it to the menu
     shortLinkButton.textContent = 'Copy Short Link';
