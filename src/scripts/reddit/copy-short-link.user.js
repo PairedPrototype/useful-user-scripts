@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Reddit - Copy Short Link
 // @description Adds a button in the share menu on (new layout) Reddit posts to copy the short link (https://redd.it/example) instead of the super long link.
-// @version     1.0.1
+// @version     1.0.2
 // @updateURL   https://github.com/PurplProto/useful-user-scripts/raw/master/src/scripts/reddit/copy-short-link.user.js
 // @downloadURL https://github.com/PurplProto/useful-user-scripts/raw/master/src/scripts/reddit/copy-short-link.user.js
 // @namespace   https://github.com/PurplProto/useful-user-scripts
